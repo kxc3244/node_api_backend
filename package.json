@@ -18,5 +18,8 @@
   "homepage": "https://github.com/kxc3244/node_api_backend#readme",
   "devDependencies": {
     "@google-cloud/functions-framework": "^2.0.0"
+  },
+  "dependencies": {
+    "axios": "^0.24.0"
   }
 }
