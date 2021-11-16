@@ -1,0 +1,22 @@
+{
+  "name": "node_api_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx functions-framework --target=publicAPI"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kxc3244/node_api_backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kxc3244/node_api_backend/issues"
+  },
+  "homepage": "https://github.com/kxc3244/node_api_backend#readme",
+  "devDependencies": {
+    "@google-cloud/functions-framework": "^2.0.0"
+  }
+}
