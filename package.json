@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npx functions-framework --target=publicAPI"
+    "start": "npx functions-framework --target=publicAPI",
+    "deploy": "gcloud functions deploy publicAPI --entry-point publicAPI --runtime nodejs14 --trigger-http --allow-unauthenticated"
   },
   "repository": {
     "type": "git",
